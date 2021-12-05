@@ -1,0 +1,56 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+/* .parallax-1{
+    background: url("./img1.jpeg") 100% ;
+    background-size: cover;
+    color:aliceblue;
+} */
+
+
+/* .parallax-inner{
+    padding: 10% 10%;
+} */
+
+h1{
+    font-size:10em; 
+    text-align: center;
+}
+
+p{
+    /*
+        individually denoting margin of each size
+    */
+    /* 
+    margin-top:50px;
+    margin-bottom : 50px;
+    margin-left : 50px;
+    margin-right:50px; 
+    */
+    /*
+        using shorthand
+    */
+    /*
+        margin: 50px 50px 50px 50px; 
+        top-right-bottom-left
+    */
+    margin: 50px ;
+    font-size: 1.5em; 
+}
+
+/* .parallax-2{
+    background : url("./img2.jpeg") repeat fixed 100%;
+    color: aliceblue;
+} */
+
+/* .parallax-3{
+    background: url("./img3.jpeg") repeat fixed 100%;
+    background-size: cover;
+    color: aliceblue;
+} */
+
