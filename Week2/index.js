@@ -61,10 +61,36 @@ function createErrorCard(message) {
 //     1. simple GET:  axios.get(url, {header})
 //     2. GET with some params:    axios.get(url , {params: {}})
 
-// POST - axios.post(url, {header}, form)
+
+/*
+  POST request using the fetch API 
+  fetch(url,{
+      method:'POST',
+      body : form
+  })
+  .then((res)=>{
+      if(res.ok){
+          //catching non 200 error code
+          // fetch only throws an error if it detects a network related issue or something prevents it from making that request
+
+          return res.json()
+      }
+      throw new Error(res.responseText); //handling a non 200 status code error
+  })
+  // res.json returns a promise
+  .then(data => console.log(data))  
+  .catch(err => console.log(err))
+
+
+  POST request using AXIOS
+  axios.post(url,{headers},form)
+    .then(data => console.log(data))
+    .catch(err => console.error(err))
+
+*/
 
 // DELETE -
 //     1. using /:id   axios.delete(url)
 //     2. using /:id   axios.delete(url, {header, data})
 
-// PUT -
+// PUT - same as POST
